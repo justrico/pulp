@@ -1,4 +1,4 @@
-# pulp
+# pulper
 ![logo](https://user-images.githubusercontent.com/17229643/55247565-50245180-528b-11e9-9947-aa3c54ea05bb.png)  
 
 Pulp is a [Hugo](https://gohugo.io/) theme for getting a simple, easy-to-read blog site.
@@ -14,13 +14,13 @@ Pulp is a [Hugo](https://gohugo.io/) theme for getting a simple, easy-to-read bl
 If your site is also under version control using git, the easiest way to install this theme is to add it as a submodule. If you have not created a git repo for your project yet, you need to run `git init` beforehand. Inside the folder of your Hugo site, run the following command.
 
 ```
-git submodule add https://github.com/justrico/pulp.git themes/pulp
+git submodule add https://github.com/justrico/pulper.git themes/pulper
 ```
 
 Alternatively, you can clone the theme into your project.
 
 ```
-git clone https://github.com/justrico/pulp.git themes/pulp
+git clone https://github.com/justrico/pulper.git themes/pulper
 ```
 
 ## Configuration
