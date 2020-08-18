@@ -1,50 +1,62 @@
 /* General */
 body {
-  background-color: #101010;
-  color: #8f8f8f;
+  background-color: #31363f;
+  color: #9da5b4;
 }
 
 a:link {
-  color: #8f8f8f;
+  color: #9da5b4;
 }
 
 a:visited {
-  color: #8f8f8f;
+  color: #9da5b4;
 }
 
 a:hover {
-  color: #8f8f8f;
+  color: #d6d8da;
 }
 
 a:active {
-  color: #8f8f8f;
+  color: #9da5b4;
 }
 
 mark {
-  color: #8f8f8f;
+  color: #9da5b4;
 }
 
 #searchBox #searchBoxInput {
-  color: #8f8f8f;
-  background-color:#363636;
-  border: solid 1px #363636;
+  color: #d6d8da;
+  background-color:#1b1d23;
+  border: solid 1px #1b1d23;
 }
 
 #searchBox #searchBoxInput::placeholder {
-  color: #363636;
+  color: #9da5b4;
 }
 
 #searchResults {
-  background-color:#363636;
-  border: solid 1px #363636;
+  background-color:#31363f;
+  border: solid 1px #181a1f;
 }
 
 #searchResults mark {
-  background-color: #222020;
+  color: #d6d8da;
+  background-color: #0366d6;
 }
 
 #tags li a {
-  background-color: #222020;
+  /* background-color: #222020; */
+  color: #d6d8da;
+  text-decoration: none;
+  background-image: linear-gradient(-180deg, rgb(83, 86, 89) 0%, rgb(66, 69, 73) 90%) !important;
+  background-color: #fafbfc;
+  border-color: rgba(27,31,35,.15);
+  box-shadow: 0 1px 0 rgba(27,31,35,.04), inset 0 1px 0 hsla(0,0%,100%,.25);
+  transition: background-color .2s cubic-bezier(.3,0,.5,1);
+}
+
+#tags li :hover {
+  background-image: linear-gradient(-180deg, rgb(99, 102, 105) 0%, rgb(82, 85, 89) 90%) !important;
 }
 
 #contentsList hr.separator {
@@ -52,5 +64,5 @@ mark {
 }
 
 img.avatar-border {
-  filter: invert(100%);
+  filter: invert(50%);
 }
