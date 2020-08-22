@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Anonaco';
+  src: url('http://img.muyisir.cn/Monaco.TTF') format('truetype');
+}
+
 #contentBody a {
   background-color: transparent;
 }
@@ -179,14 +184,14 @@
 }
 
 #contentBody code {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: Anonaco, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
 
 #contentBody pre {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: Anonaco, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
 
@@ -507,7 +512,7 @@
 #contentBody kbd {
   display: inline-block;
   padding: 3px 5px;
-  font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font: 11px Anonaco, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   line-height: 10px;
   color: #444d56;
   vertical-align: middle;

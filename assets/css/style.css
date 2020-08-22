@@ -1,4 +1,10 @@
 /* General */
+@font-face {
+  font-family: 'LiHei';
+  src: url('http://img.muyisir.cn/LiHeiPro.ttf') format('truetype');
+  src: url('http://img.muyisir.cn/LiHeiPro.woff') format('woff');
+}
+
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -9,7 +15,7 @@ body {
   background-color: #EFEFEF;
   color: #707070;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Microsoft YaHei UI", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, LiHei, "Microsoft YaHei UI", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
   font-size: 16px;
   word-wrap: break-word;
