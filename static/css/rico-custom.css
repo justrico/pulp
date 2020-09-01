@@ -1,3 +1,18 @@
+/*
+ * font-face definations
+ */
+@font-face {
+  font-family: 'LiHei';
+  src: url('http://img.muyisir.cn/LiHeiPro.woff') format('woff'),
+       url('http://img.muyisir.cn/LiHeiPro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CodeNewRomanNFMono';
+  src: url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono-webfont.woff') format('woff'),
+       url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono.ttf') format('truetype');
+}
+
 @font-face {
   font-family: "DancingScript";
   src: url('http://img.muyisir.cn/Font_DancingScript_Bold.woff2') format('woff2'),
@@ -11,6 +26,37 @@
        url('http://img.muyisir.cn/Font_BadScript_regular.woff') format('woff'),
 	   url('http://img.muyisir.cn/Font_BadScript_Regular.ttf') format('truetype');
 }
+
+/*
+ * style.css
+ */
+body {
+  font-family: LiHei !important;
+}
+
+
+/*
+ * markdown.css
+ */
+
+#contentBody code {
+  font-family: "CodeNewRomanNFMono" !important;
+}
+
+#contentBody pre {
+  font-family: "CodeNewRomanNFMono" !important;
+}
+
+#contentBody kbd {
+  font-family: "CodeNewRomanNFMono" !important;
+  font-size: 11px;
+}
+
+
+/*
+ * rico-custom.css
+ */
+
 
 .iconfont {
   font-size: 26px;
