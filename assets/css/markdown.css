@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'CodeNewRomanNFMono';
-  src: url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono.ttf') format('truetype');
-  src: url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono-webfont.woff') format('woff');
+  src: url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono-webfont.woff') format('woff'),
+       url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono.ttf') format('truetype');
 }
 
 #contentBody a {

@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'DancingScript';
+  font-family: "DancingScript";
   src: url('http://img.muyisir.cn/Font_DancingScript_Bold.woff2') format('woff2'),
-       url('http://img.muyisir.cn/Font_DancingScript_Bold.woff') format('woff');
-       url('http://img.muyisir.cn/Font-DancingScript_Bold.ttf') format('truetype'),
+       url('http://img.muyisir.cn/Font_DancingScript_Bold.woff') format('woff'),
+       url('http://img.muyisir.cn/Font-DancingScript_Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'BadScript';
+  font-family: "BadScript";
   src: url('http://img.muyisir.cn/Font_BadScript_Regular.woff2') format('woff2'),
-       url('http://img.muyisir.cn/Font_BadScript_regular.woff') format('woff');
-	   url('http://img.muyisir.cn/Font_BadScript_Regular.ttf') format('truetype'),
+       url('http://img.muyisir.cn/Font_BadScript_regular.woff') format('woff'),
+	   url('http://img.muyisir.cn/Font_BadScript_Regular.ttf') format('truetype');
 }
 
 .iconfont {
@@ -25,10 +25,14 @@ nav li a {
 }
 
 .author {
+  font-family: "DancingScript" !important;
   font-size: 4em;
   font-weight: bold;
+  font-style: normal;
   line-height: 1;
-  font-family: 'DancingScript',-apple-system,BlinkMacSystemFont,LiHei,microsoft yahei ui,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*font-family: 'DancingScript',-apple-system,BlinkMacSystemFont,LiHei,microsoft yahei ui,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;*/
 }
 
 h2 .author {
@@ -39,10 +43,14 @@ h2 .author {
 .description {
   margin-top: 15px;
   margin-bottom: 28px;
+  font-family: "BadScript" !important;
   font-size: 1.5em;
   font-weight: bold;
+  font-style: normal;
   line-height: 1;
-  font-family: 'BadScript',-apple-system,BlinkMacSystemFont,LiHei,microsoft yahei ui,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*font-family: 'BadScript',-apple-system,BlinkMacSystemFont,LiHei,microsoft yahei ui,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;*/
 }
 
 .description i {
@@ -54,7 +62,11 @@ footer {
 }
 
 .articleList {
-  font-family: 'BadScript',-apple-system,BlinkMacSystemFont,LiHei,microsoft yahei ui,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-family: "BadScript" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*font-family: 'BadScript',-apple-system,BlinkMacSystemFont,LiHei,microsoft yahei ui,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;*/
 }
 
 div#contentsList p a {
