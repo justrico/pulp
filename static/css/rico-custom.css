@@ -3,14 +3,15 @@
  */
 @font-face {
   font-family: 'LiHei';
-  src: url('http://img.muyisir.cn/LiHeiPro.woff') format('woff'),
-       url('http://img.muyisir.cn/LiHeiPro.ttf') format('truetype');
+  src: url('http://img.muyisir.cn/Font_LiHeiPro.woff') format('woff'),
+       url('http://img.muyisir.cn/Font_LiHeiPro.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'CodeNewRomanNFMono';
-  src: url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono-webfont.woff') format('woff'),
-       url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono.ttf') format('truetype');
+  src: url('http://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.woff2') format('woff2'),
+       url('http://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.woff') format('woff'),
+       url('http://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.ttf') format('truetype');
 }
 
 @font-face {
@@ -31,7 +32,7 @@
  * style.css
  */
 body {
-  font-family: LiHei !important;
+  font-family: "LiHei" !important;
 }
 
 
@@ -96,12 +97,82 @@ h2 .author {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*font-family: 'BadScript',-apple-system,BlinkMacSystemFont,LiHei,microsoft yahei ui,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;*/
+    color: rgba(255, 255, 255, 0.1);
+    /* Old browsers */
+
+    background: #ed8080;
+    /* FF3.6+ */
+
+    background: -moz-linear-gradient(left, #ed8080 0%, #2a77d6 16%, #5eb524 32%, #eacd25 48%, #ed8080 64%, #2a77d6 80%, #5eb524 100%);
+    /* Chrome,Safari4+ */
+
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ed8080), color-stop(16%, #2a77d6), color-stop(32%, #5eb524), color-stop(48%, #eacd25), color-stop(64%, #ed8080), color-stop(80%, #2a77d6), color-stop(100%, #5eb524));
+    /* Chrome10+,Safari5.1+ */
+
+    background: -webkit-linear-gradient(left, #ed8080 0%, #2a77d6 16%, #5eb524 32%, #eacd25 48%, #ed8080 64%, #2a77d6 80%, #5eb524 100%);
+    /* Opera 11.10+ */
+
+    background: -o-linear-gradient(left, #ed8080 0%, #2a77d6 16%, #5eb524 32%, #eacd25 48%, #ed8080 64%, #2a77d6 80%, #5eb524 100%);
+    /* IE10+ */
+
+    background: -ms-linear-gradient(left, #ed8080 0%, #2a77d6 16%, #5eb524 32%, #eacd25 48%, #ed8080 64%, #2a77d6 80%, #5eb524 100%);
+    /* W3C */
+
+    background: linear-gradient(to right, #ed8080 0%, #2a77d6 16%, #5eb524 32%, #eacd25 48%, #ed8080 64%, #2a77d6 80%, #5eb524 100%);
+    /* IE6-9 */
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ed8080', endColorstr='#5eb524', GradientType=1);
+    -webkit-background-size: 300% 300%;
+    -moz-background-size: 300% 300%;
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    animation: description infinite 3s linear;
+    -o-animation: description infinite 3s linear;
+    -moz-animation: description infinite 3s linear;
+    -webkit-animation: description infinite 3s linear;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: #222;
+}
+@-moz-keyframes description {
+    0% {
+        background-position: top right;
+    }
+    100% {
+        background-position: top left;
+    }
+}
+@-webkit-keyframes description {
+    0% {
+        background-position: top right;
+    }
+    100% {
+        background-position: top left;
+    }
+}
+@-o-keyframes description {
+    0% {
+        background-position: top right;
+    }
+    100% {
+        background-position: top left;
+    }
+}
+@keyframes description {
+    0% {
+        background-position: top right;
+    }
+    100% {
+        background-position: top left;
+    }
+}
 }
 
-.description i {
+/*.description i {
   color: #1474ed;
-}
+}*/
 
 footer {
   font-size: 14px;
