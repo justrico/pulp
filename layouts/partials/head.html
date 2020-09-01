@@ -34,11 +34,18 @@
   <!-- Use Font Awesome -->
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
   <!-- Font Awesome Use CDN For China -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <!--Use Iconfont-->
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_2038513_nkg3hmvmpd.css">
 
   <!-- custom css -->
   {{ range .Site.Params.custom_css }}
   <link rel="stylesheet" href="{{ . }}">
+  {{ end }}
+
+  <!-- custom js -->
+  {{ range .Site.Params.custom_js }}
+  <script src="{{ . }}"></script>
   {{ end }}
 
   {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
@@ -57,22 +64,6 @@
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
   <![endif]-->` | safeHTML }}
-
-  <!-- Cute title tips -->
-  <script>
-    var OriginTitile = document.title, titleTime;
-    document.addEventListener('visibilitychange', function() {
-      if (document.hidden) {
-        document.title = '(*/ω＼*) 我藏好了噢~';
-        clearTimeout(titleTime);
-      } else {
-        document.title = '٩(ˊᗜˋ )و 被你发现啦~';
-        titleTime = setTimeout(function() {
-            document.title = OriginTitile;
-        },3000);
-      }
-    });
-  </script>
 
   <!-- Google Analytics -->
   {{- if and (not .Site.IsServer) .Site.GoogleAnalytics -}}

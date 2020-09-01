@@ -1,8 +1,8 @@
 /* General */
 @font-face {
   font-family: 'LiHei';
-  src: url('http://img.muyisir.cn/LiHeiPro.ttf') format('truetype');
-  src: url('http://img.muyisir.cn/LiHeiPro.woff') format('woff');
+  src: url('http://img.muyisir.cn/LiHeiPro.ttf') format('truetype'),
+       url('http://img.muyisir.cn/LiHeiPro.woff') format('woff');
 }
 
 body {

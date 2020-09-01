@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'Anonaco';
-  src: url('http://img.muyisir.cn/Monaco.TTF') format('truetype');
+  font-family: 'CodeNewRomanNFMono';
+  src: url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono.ttf') format('truetype');
+  src: url('http://img.muyisir.cn/code_new_roman_nerd_font_complete_mono-webfont.woff') format('woff');
 }
 
 #contentBody a {
@@ -184,14 +185,14 @@
 }
 
 #contentBody code {
-  font-family: Anonaco, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: CodeNewRomanNFMono, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
 
 #contentBody pre {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Anonaco, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: CodeNewRomanNFMono, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 12px;
 }
 
@@ -512,7 +513,7 @@
 #contentBody kbd {
   display: inline-block;
   padding: 3px 5px;
-  font: 11px Anonaco, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font: 11px CodeNewRomanNFMono, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   line-height: 10px;
   color: #444d56;
   vertical-align: middle;
