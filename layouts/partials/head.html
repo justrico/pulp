@@ -36,13 +36,20 @@
   <!-- Font Awesome Use CDN For China (also loading slow) -->
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
 
+  <!-- jQuery cdn -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <!--Use Font-Awesome for live2d-widget-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
-  <!--live2d-widget-->
-  <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 
   <!--Use Iconfont-->
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_2038513_lk7p6fbxqkr.css">
+
+  <!-- Valine CMS -->
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+  <!--live2d-widget script MUST UNDER the Valine CMS script-->
+  <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 
   <!-- custom css -->
   {{ range .Site.Params.custom_css }}

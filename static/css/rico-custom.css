@@ -3,29 +3,29 @@
  */
 @font-face {
   font-family: 'LiHei';
-  src: url('http://img.muyisir.cn/Font_LiHeiPro.woff') format('woff'),
-       url('http://img.muyisir.cn/Font_LiHeiPro.ttf') format('truetype');
+  src: url('https://img.muyisir.cn/Font_LiHeiPro.woff') format('woff'),
+       url('https://img.muyisir.cn/Font_LiHeiPro.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'CodeNewRomanNFMono';
-  src: url('http://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.woff2') format('woff2'),
-       url('http://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.woff') format('woff'),
-       url('http://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.ttf') format('truetype');
+  src: url('https://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.woff2') format('woff2'),
+       url('https://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.woff') format('woff'),
+       url('https://img.muyisir.cn/Font_CodeNewRomanNF_Complete_Mono.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "DancingScript";
-  src: url('http://img.muyisir.cn/Font_DancingScript_Bold.woff2') format('woff2'),
-       url('http://img.muyisir.cn/Font_DancingScript_Bold.woff') format('woff'),
-       url('http://img.muyisir.cn/Font-DancingScript_Bold.ttf') format('truetype');
+  src: url('https://img.muyisir.cn/Font_DancingScript_Bold.woff2') format('woff2'),
+       url('https://img.muyisir.cn/Font_DancingScript_Bold.woff') format('woff'),
+       url('https://img.muyisir.cn/Font-DancingScript_Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: "BadScript";
-  src: url('http://img.muyisir.cn/Font_BadScript_Regular.woff2') format('woff2'),
-       url('http://img.muyisir.cn/Font_BadScript_regular.woff') format('woff'),
-	   url('http://img.muyisir.cn/Font_BadScript_Regular.ttf') format('truetype');
+  src: url('https://img.muyisir.cn/Font_BadScript_Regular.woff2') format('woff2'),
+       url('https://img.muyisir.cn/Font_BadScript_regular.woff') format('woff'),
+	   url('https://img.muyisir.cn/Font_BadScript_Regular.ttf') format('truetype');
 }
 
 /*
